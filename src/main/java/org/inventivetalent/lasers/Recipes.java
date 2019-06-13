@@ -31,7 +31,7 @@ public class Recipes {
 		LASER_EMITTER.setIngredient('s', Material.STONE);
 		LASER_EMITTER.setIngredient('g', Material.GLASS);
 		LASER_EMITTER.setIngredient('c', Material.DIAMOND);// Laser Crystal
-		LASER_EMITTER.setIngredient('t', Material.REDSTONE_TORCH);
+		LASER_EMITTER.setIngredient('t', Material.REDSTONETORCH);
 
 		/* Laser Receiver */
 		LASER_RECEIVER = new ShapedRecipe(new NamespacedKey(this.plugin, "laser_receiver"), this.plugin.items.LASER_RECEIVER);
@@ -46,7 +46,7 @@ public class Recipes {
 		MIRROR_ROTATOR.shape("rpr", "ptp", "cpc");
 		MIRROR_ROTATOR.setIngredient('r', Material.REDSTONE);
 		MIRROR_ROTATOR.setIngredient('p', Material.PISTON);
-		MIRROR_ROTATOR.setIngredient('t', Material.REDSTONE_TORCH);
+		MIRROR_ROTATOR.setIngredient('t', Material.REDSTONETORCH);
 		MIRROR_ROTATOR.setIngredient('c', Material.COMPARATOR);
 
 		inject();
